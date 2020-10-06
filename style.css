@@ -179,6 +179,11 @@ body {
   padding-bottom: 50px;
 }
 
+.content_title::after {
+  width: 100px;
+  color: #fff;
+}
+
 .product_bg {
   max-width: 260px;
   margin: 50px 0 25px 0;
@@ -293,11 +298,10 @@ body {
 .about_text {
   margin-top: 40px;
 }
-.form_field  {
+.form_field {
   padding: 10px 20px;
   background: #c9c9c9d3;
   border: none;
-  
 }
 
 .form_field::placeholder {
@@ -306,11 +310,10 @@ body {
 
 .subs_btn {
   padding: 10px 20px;
-  background: #0F0F0F;
+  background: #0f0f0f;
   color: #fff;
 }
 
 .subs_form {
   display: flex;
 }
-
