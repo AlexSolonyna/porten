@@ -181,6 +181,7 @@ body {
 .content_title::after {
   width: 100px;
   color: #fff;
+  content: "";
 }
 
 .product_bg {
