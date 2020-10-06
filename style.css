@@ -5,8 +5,15 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  src: url(./fonts/PostNoBillsJaffna-Bold.ttf);
+}
+
 body {
   font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 150%;
 
@@ -47,8 +54,9 @@ body {
 }
 
 .header_logo {
-  /* font-family: Post No Bills Jaffna;
-  font-style: normal; */
+  font-family: "Post No Bills Jaffna", sans-serif;
+  /* src: url(./fonts/PostNoBillsJaffna-Bold.ttf); */
+
   padding: 15px 0 16px 0;
   font-weight: bold;
   font-size: 36px;
@@ -60,12 +68,13 @@ body {
 .header_main {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   background: #0f0f0f;
 }
 
 .nav {
-  padding: 31px 20px;
+  /* padding: 31px 20px; */
 }
 
 .ul_nav {
@@ -73,7 +82,7 @@ body {
   display: flex;
 }
 
-.li_nav:hover {
+.li_nav a:hover {
   background: #1f1f1f;
   cursor: pointer;
 }
@@ -88,7 +97,7 @@ body {
   color: #ffffff;
 }
 
-.img_cart {
+.li_nav:last-child(2) {
   margin-left: 60px;
 }
 
@@ -108,8 +117,9 @@ body {
 }
 
 .intro_title {
-  /* font-family: Post No Bills Jaffna;
-  font-style: normal; */
+  font-family: "Post No Bills Jaffna", sans-serif;
+  /* src: url(./fonts/PostNoBillsJaffna-Bold.ttf); */
+
   font-weight: bold;
   font-size: 64px;
   line-height: 96px;
@@ -144,4 +154,163 @@ body {
 
   color: #ffffff;
 }
-/* font-family: 'Playfair Display', serif; */
+
+.content_section {
+  margin-top: -10px;
+  font-family: "Playfair Display", serif;
+  background: #000;
+  color: #ffffff;
+}
+
+.content_item {
+  max-width: 1040px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.content_title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 50px;
+}
+
+.product_bg {
+  max-width: 260px;
+  margin: 50px 0 25px 0;
+  padding: 55px 23px 56px 22px;
+
+  background: #191b1c;
+}
+
+.product_name {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.product_price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* light-gray */
+
+  color: #d0d0d0;
+}
+
+.content_item_inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  max-width: 880px;
+  background: url(./img/content-img-1.png);
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 30px;
+  font-family: PT Sans;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  text-decoration: none;
+  border: 1px solid #fff;
+
+  color: #ffffff;
+}
+
+.content_left {
+  max-width: 1040px;
+  padding-top: 93px;
+}
+
+.content {
+  width: 880px;
+  padding: 484px 202px 100px 202px;
+}
+
+.section_new_pr {
+  padding: 120px 0 150px 0;
+  background: #000000;
+}
+
+.container_content {
+  max-width: 1110px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.new_pr_item,
+.brands_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brands_section {
+  padding: 60px 0 80px 0;
+  background: #0f0f0f;
+}
+
+.brands_item {
+  margin-top: 40px;
+}
+
+.footer_main {
+  padding: 80px 0 101px 0;
+  background: url(./img/footer-bg.png);
+  background-repeat: no-repeat;
+}
+
+.footer_title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.about_store {
+  max-width: 350px;
+}
+
+.about_text {
+  margin-top: 40px;
+}
+.form_field  {
+  padding: 10px 20px;
+  background: #c9c9c9d3;
+  border: none;
+  
+}
+
+.form_field::placeholder {
+  color: #fff;
+}
+
+.subs_btn {
+  padding: 10px 20px;
+  background: #0F0F0F;
+  color: #fff;
+}
+
+.subs_form {
+  display: flex;
+}
+
